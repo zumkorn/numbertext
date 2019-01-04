@@ -11,7 +11,7 @@ module Numbertext
   private
 
   def program(locale)
-    file = File.open("./lib/locales/#{locale}.sor")
+    file = File.open("#{File.dirname(__FILE__)}/locales/#{locale}.sor")
     file.read
   end
 end
