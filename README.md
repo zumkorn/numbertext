@@ -27,7 +27,7 @@ Or install it yourself as:
 
 ## Usage
 
-Default locale if English
+Default locale is English
 
 ```ruby
 2300.to_word # => two thousand three hundred
