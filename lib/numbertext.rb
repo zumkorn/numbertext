@@ -1,4 +1,4 @@
-require "./lib/soros"
+require_relative './soros'
 
 module Numbertext
   def to_word(locale: "en")
